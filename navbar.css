@@ -1,0 +1,63 @@
+.navigate {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    color: black;
+    position: relative;
+    top: -10px;
+}
+
+.navigate.flow {
+    position: fixed;
+}
+
+nav ul li.logo-img div {
+    background: url(./assets/bg.jpg);
+    width: 70px;
+    height: 60px;
+    margin: 7.5px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.brand-logo {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    width: 125px;
+    text-align: center;
+    cursor: pointer;
+}
+
+nav ul li h3 {
+    font-size: 20px;
+    margin: 25px auto;
+}
+
+/* nav ul li:hover a, nav ul li.active a{
+    font-weight: bold;
+} */
+
+nav ul li:last-child {
+    margin-right: 50px;
+}
+
+nav ul .login {
+    margin-left: 800px;
+}
+
+.login i {
+    margin-top: 3px;
+    margin-right: 10px;
+}
