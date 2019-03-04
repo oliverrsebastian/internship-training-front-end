@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./style-login.css">
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+</head>
+
+<body>
+
+<nav class="navigate">
+    <div class="nav-wrapper">
+        <ul id="nav-mobile" class="center hide-on-med-and-down">
+            <li>
+                <a href="index.html">
+                    <h3>Home</h3>
+                </a>
+            </li>
+            <li>
+                <a href="product.html">
+                    <h3>Products</h3>
+                </a>
+            </li>
+            <li>
+                <a href="about.html">
+                    <h3>About</h3>
+                </a>
+            </li>
+            <li class="login right">
+                <i class="material-icons right">person</i>
+                <a href="login.html">
+                    <h3>Login</h3>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="login-box right">
+        <div class="overlay"></div>
+        <div class="title">
+            <h2>Forigins</h2>
+        </div>
+        <div class="row">
+            <form class="form">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email" data-error="Wrong">Email</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Password</label>
+                    </div>
+                </div>
+                <button class="btn waves-effect waves-light left" type="submit" name="submit">Register
+                    <i class="material-icons right">person_add</i>
+                </button>
+                <button class="btn waves-effect waves-light right" type="submit" name="submit">Login
+                    <i class="material-icons right">send</i>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</body>
+
+</html>
